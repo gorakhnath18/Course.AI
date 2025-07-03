@@ -1,21 +1,32 @@
-{ 
+{
   "name": "backend",
   "version": "1.0.0",
+  "description": "The backend server for Course.ai, powered by Node.js, Express, and Gemini.",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
+  "keywords": [
+    "ai",
+    "course-builder",
+    "gemini",
+    "express",
+    "nodejs"
+  ],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "axios": "^1.10.0",
     "cors": "^2.8.5",
-    "dotenv": "^17.0.1",
-    "express": "^5.1.0",
-    "openai": "^5.8.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^150.0.1",
+    "mongoose": "^8.4.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }

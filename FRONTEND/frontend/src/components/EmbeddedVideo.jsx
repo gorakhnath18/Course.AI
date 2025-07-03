@@ -1,6 +1,6 @@
-function EmbeddedVideo({ videoId, title }) {
+ function EmbeddedVideo({ videoId, title }) {
   return (
-    <div className="aspect-w-16 aspect-h-9">
+    <div className="aspect-square">
       <iframe
         src={`https://www.youtube.com/embed/${videoId}`}
         title={title}

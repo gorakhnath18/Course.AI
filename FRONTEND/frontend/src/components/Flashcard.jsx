@@ -22,4 +22,4 @@ function Flashcard({ card }) {
   );
 }
 
-export default Flashcard; // <-- THIS LINE WAS LIKELY MISSING OR INCORRECT
+export default Flashcard;
